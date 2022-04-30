@@ -95,7 +95,7 @@
                 <div class="card__relative">
                     <div class="justify-content-center">
                      <img src="uploadImg/'.$row->pImg.'" style="height: 200px" id="#imm" class="card-img img-in-card"width="200px"  alt="...">
-                        <div onload="setThehegit()" class="img__hover">
+                        <div class="img__hover">
                             <div class="title-card">'.$row->pName.'</div>
                             <p class="card-price"> '.$row->pPrice.'$</p>
                             <a class="btn btn-primary" href="productPage.php?barcode='.$row->barcode.'">Buy now</a>
